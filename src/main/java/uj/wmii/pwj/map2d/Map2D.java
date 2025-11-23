@@ -213,7 +213,7 @@ public interface Map2D<R, C, V> {
      * @return new instance of {@code Map2D}
      */
     static <R,C,V> Map2D<R,C,V> createInstance() {
-        return null;
+        return new Map2DImpl<>();
     }
 
 }
